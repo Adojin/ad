@@ -22,7 +22,13 @@ package org.itstep.task01;
  */
 public class Main {
     public static void main(String[] args) {
-        // TODO: Пишите классы в этом пакете
-        // FIXME: здесь пример использования класса
+        Human dima = new Human("Дмитрий Дмитриевич Дмитров",
+                "01.01.1990",
+                "+38 (666) 228-13-37",
+                "Днепр",
+                "Украина",
+                "ул. Телевизионная, 4а");
+        System.out.println(dima);
+
     }
 }
